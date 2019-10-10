@@ -1,0 +1,21 @@
+{
+    "name": "kekos/multipart-form-data-parser",
+    "description": "PHP parser for HTTP multipart/form-data bodies",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoffer Lindahl",
+            "email": "christoffer@kekos.se"
+        }
+    ],
+    "require": {
+        "php": "^7.2.0",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kekos\\MultipartFormDataParser\\": "src/"
+        }
+    }
+}
