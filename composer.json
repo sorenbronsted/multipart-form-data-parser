@@ -13,9 +13,20 @@
         "php": "^7.2.0",
         "psr/http-message": "^1.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
     "autoload": {
         "psr-4": {
             "Kekos\\MultipartFormDataParser\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kekos\\MultipartFormDataParser\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
